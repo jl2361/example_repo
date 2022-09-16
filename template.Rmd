@@ -37,10 +37,6 @@ plot_df =
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()  
 ```
 
-```{r chunk_histogram}
-ggplot(plot_df, aes(x = x)) + geom_histogram()
-```
-
 # Section 4 
 ## Plot for LA 
 This is a quick kind of solution to the LA. The chunk below creates a dataframe containing a sample of size 500 from a random normal variable, constructs the specified logical vector, takes the absolute value of each element of that sample,and produces a histogram of the absolute value. The code chunk also finds the median of the sample and stores it for easy in-line printing.
