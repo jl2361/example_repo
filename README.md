@@ -1,2 +1,2 @@
 # Example Repo
-This is an example Repo.
+This is an example repo.
